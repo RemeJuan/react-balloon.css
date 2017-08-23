@@ -4,10 +4,11 @@
   "description": "A react styled-components implementation of kazzkiq's balloon.css",
   "main": "build/index.js",
   "scripts": {
-    "preversion": "npm run test",
+    "preversion": "yarn test",
     "postversion": "git push && git push --tags && npm publish",
-    "prepare": "npm run build",
+    "prepare": "yarn build",
     "build": "webpack --progress --profile --bail",
+    "dev": "webpack --progress --profile --watch",
     "test": "jest",
     "test:watch": "jest --watch"
   },
