@@ -1,0 +1,15 @@
+{
+  "presets": [
+    "react",
+    "es2015",
+    "stage-1"
+  ],
+  "plugins": [
+    [
+      "babel-plugin-root-import",
+      {
+        "rootPathSuffix": "lib/"
+      }
+    ]
+  ]
+}
