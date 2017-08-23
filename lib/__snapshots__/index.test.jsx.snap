@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tooltip /> should render with always 1`] = `
+<span
+  className="sc-bdVaJa dXkrdO"
+/>
+`;
+
+exports[`<Tooltip /> should render with blockChild 1`] = `
+<span
+  className="sc-bdVaJa dYEMSy"
+/>
+`;
+
+exports[`<Tooltip /> should render with default props 1`] = `
+<span
+  className="sc-bdVaJa jchWiA"
+/>
+`;
+
+exports[`<Tooltip /> should render with length 1`] = `
+<span
+  className="sc-bdVaJa ljqnsH"
+/>
+`;
+
+exports[`<Tooltip /> should render with message 1`] = `
+<span
+  className="sc-bdVaJa bWeTaT"
+/>
+`;
