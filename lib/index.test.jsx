@@ -61,4 +61,40 @@ describe('<Tooltip />', () => {
 
     expect(wrapper).toMatchSnapshot();
   });
+
+  it('should render with position: left', () => {
+    const props = {
+      position: 'left',
+    };
+
+    const wrapper = rendererCreate(
+      <Tooltip {...props} />,
+    ).toJSON();
+
+    expect(wrapper).toMatchSnapshot();
+  });
+
+  it('should render with position: right', () => {
+    const props = {
+      position: 'right',
+    };
+
+    const wrapper = rendererCreate(
+      <Tooltip {...props} />,
+    ).toJSON();
+
+    expect(wrapper).toMatchSnapshot();
+  });
+
+  it('should render with position: bottom', () => {
+    const props = {
+      position: 'bottom',
+    };
+
+    const wrapper = rendererCreate(
+      <Tooltip {...props} />,
+    ).toJSON();
+
+    expect(wrapper).toMatchSnapshot();
+  });
 });

@@ -2,30 +2,48 @@
 
 exports[`<Tooltip /> should render with always 1`] = `
 <span
-  className="sc-bdVaJa dXkrdO"
+  className="sc-bdVaJa khkMdF"
 />
 `;
 
 exports[`<Tooltip /> should render with blockChild 1`] = `
 <span
-  className="sc-bdVaJa dYEMSy"
+  className="sc-bdVaJa iVAwZw"
 />
 `;
 
 exports[`<Tooltip /> should render with default props 1`] = `
 <span
-  className="sc-bdVaJa jchWiA"
+  className="sc-bdVaJa iVAwZw"
 />
 `;
 
 exports[`<Tooltip /> should render with length 1`] = `
 <span
-  className="sc-bdVaJa ljqnsH"
+  className="sc-bdVaJa fZSyEg"
 />
 `;
 
 exports[`<Tooltip /> should render with message 1`] = `
 <span
-  className="sc-bdVaJa bWeTaT"
+  className="sc-bdVaJa eDmcWv"
+/>
+`;
+
+exports[`<Tooltip /> should render with position: bottom 1`] = `
+<span
+  className="sc-bdVaJa fAqnua"
+/>
+`;
+
+exports[`<Tooltip /> should render with position: left 1`] = `
+<span
+  className="sc-bdVaJa jCuedB"
+/>
+`;
+
+exports[`<Tooltip /> should render with position: right 1`] = `
+<span
+  className="sc-bdVaJa hjPhfO"
 />
 `;
