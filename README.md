@@ -1,6 +1,7 @@
 # react-balloon.css
 A react styled-components implementation of kazzkiq's balloon.css
 
+[![Build Status](https://travis-ci.org/RemeJuan/react-balloon.css.svg?branch=master)](https://travis-ci.org/RemeJuan/react-balloon.css)
 
 # Usage
 
