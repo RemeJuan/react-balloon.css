@@ -2,6 +2,8 @@
 A react styled-components implementation of kazzkiq's balloon.css
 
 [![Build Status](https://travis-ci.org/RemeJuan/react-balloon.css.svg?branch=master)](https://travis-ci.org/RemeJuan/react-balloon.css)
+[![npm version](https://badge.fury.io/js/react-balloon.css.svg)](https://badge.fury.io/js/react-balloon.css)
+[![npm](https://img.shields.io/npm/dt/express.svg)](https://www.npmjs.com/package/react-balloon.css)
 
 # Usage
 
@@ -43,3 +45,5 @@ position[top]: String (top|bottom|left|right)
 * Original Balloon.css: [kazzkiq](https://github.com/kazzkiq/balloon.css)
 * [Styled Components](http://styled-components.com)
 * [Styled-Tools](https://github.com/diegohaz/styled-tools)
+
+[![NPM](https://nodei.co/npm/react-balloon.css.png?compact=true)](https://npmjs.org/package/react-balloon.css)
