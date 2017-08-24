@@ -3,7 +3,7 @@ A react styled-components implementation of kazzkiq's balloon.css
 
 [![Build Status](https://travis-ci.org/RemeJuan/react-balloon.css.svg?branch=master)](https://travis-ci.org/RemeJuan/react-balloon.css)
 [![npm version](https://badge.fury.io/js/react-balloon.css.svg)](https://badge.fury.io/js/react-balloon.css)
-[![npm](https://img.shields.io/npm/dt/express.svg)](https://www.npmjs.com/package/react-balloon.css)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/RemeJuan/react-balloon.css)
 
 # Usage
 
