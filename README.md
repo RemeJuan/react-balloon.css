@@ -5,6 +5,8 @@ A react styled-components implementation of kazzkiq's balloon.css
 [![npm version](https://badge.fury.io/js/react-balloon.css.svg)](https://badge.fury.io/js/react-balloon.css)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/RemeJuan/react-balloon.css)
 
+[Demo](http://react-balloon.css-demo.surge.sh)
+
 # Usage
 
 Simply install using `npm install react-balloon.css` or `yarn add react-balloon.css`
