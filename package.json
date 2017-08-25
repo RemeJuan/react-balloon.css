@@ -12,6 +12,7 @@
     "test": "jest",
     "test:watch": "jest --watch"
   },
+  "homepage": "http://react-balloon.css-demo.surge.sh",
   "author": {
     "name": "Reme Le Hane",
     "email": "reme.lehane@gmail.com",
