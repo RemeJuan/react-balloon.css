@@ -1,6 +1,6 @@
 {
   "name": "react-balloon.css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A react styled-components implementation of kazzkiq's balloon.css",
   "main": "build/index.js",
   "scripts": {
