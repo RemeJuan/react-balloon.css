@@ -7,17 +7,14 @@
     "preversion": "yarn test",
     "postversion": "git push && git push --tags && npm publish",
     "prepare": "yarn build",
+    "compile": "projectz compile",
     "build": "webpack --progress --profile --bail",
     "dev": "webpack --progress --profile --watch",
     "test": "jest",
     "test:watch": "jest --watch"
   },
   "homepage": "http://react-balloon.css-demo.surge.sh",
-  "author": {
-    "name": "Reme Le Hane",
-    "email": "reme.lehane@gmail.com",
-    "url": "https://www.remelehane.me"
-  },
+  "author": "2017+ Reme Le Hane <reme.lehane@gmail.com> (http://www.remelehane.me)",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -68,5 +65,11 @@
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
       "\\.(css|less|scss|sass)$": "<rootDir>/__mocks__/styleMocks.js"
     }
-  }
+  },
+  "maintainers": [
+    "Reme Le Hane (reme.lehane@gmail.com) (https://www.remelehane.me)"
+  ],
+  "contributors": [
+    "Reme Le Hane <reme.lehane@gmail.com> (http://www.remelehane.me)"
+  ]
 }

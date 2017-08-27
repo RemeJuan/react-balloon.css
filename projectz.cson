@@ -1,0 +1,35 @@
+{
+	"title": "React Balloon.css",
+	"name": "react-balloon.css",
+	"homepage": "https://react-balloon.css-demo.surge.sh",
+	"description": "A react styled-components implementation of kazzkiq's balloon.css",
+	"demo": "http://react-balloon.css-demo.surge.sh",
+	"license": "MIT",
+	"browsers": true,
+	"author": "2017+ Reme Le Hane <reme.lehane@gmail.com> (https://www.remelehane.me)",
+	"maintainers": [
+		"Reme Le Hane (reme.lehane@gmail.com) (https://www.remelehane.me)"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/RemeJuan/react-balloon.css.git"
+	},
+	"bugs": {
+		"url": "https://github.com/RemeJuan/react-balloon.css/issues"
+	},
+	"badges": {
+		"list": [
+			"nodeico",
+      "---",
+			"travisci",
+			"npmversion",
+			"npmdownloads",
+			"githubfollow",
+			"githubstar",
+			"daviddm",
+		],
+		"config": {
+			"githubUsername": "RemeJuan"
+		}
+	}
+}
