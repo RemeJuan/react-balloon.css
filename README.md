@@ -34,7 +34,7 @@ You can then wrap it around any component passing at least the `message` prop th
 
 ## Example
 
-```
+```javascript
 import Tooltip from 'react-balloon.css';
 
 ...
@@ -47,7 +47,7 @@ import Tooltip from 'react-balloon.css';
 
 ## Available props
 
-```
+```javascript
 message[undefined]: String;
 length[fit]: String (small|medium|large|xlarge|fit)
 blockChild[false]: Boolean (when wrapping around block element eg: h1)
