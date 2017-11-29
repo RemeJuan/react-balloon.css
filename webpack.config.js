@@ -1,7 +1,6 @@
 const webpack = require('webpack');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
-
 const path = require('path');
+
 const ENV = process.env.NODE_ENV = process.env.ENV = 'production';
 
 module.exports = {
@@ -14,8 +13,8 @@ module.exports = {
   },
 
   externals: {
-    'react': 'react',
-    'react-dom': 'react-dom'
+    react: 'react',
+    'react-dom': 'react-dom',
   },
 
   module: {
@@ -47,6 +46,6 @@ module.exports = {
     path: path.join(__dirname, '/build/'),
     filename: 'index.js',
     library: 'react-balloon.css',
-    libraryTarget: 'umd'
+    libraryTarget: 'umd',
   },
 };
