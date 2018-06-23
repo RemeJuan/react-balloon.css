@@ -1,11 +1,12 @@
-import React from 'react';
+/* tslint:disable:max-line-length */
+import React, { SFC } from 'react';
 import styled, { css } from 'styled-components';
 import { prop, ifProp } from 'styled-tools';
 
 const animation = ({ always, message }) => (
   (!always && message) ? css`
-         animation-name: fadeIn;
-        animation-duration: 0.2s;
+    animation-name: fadeIn;
+    animation-duration: 0.2s;
   ` : null
 );
 
@@ -66,6 +67,7 @@ const TooltipWrapper = styled.span`
       ${top};
       margin-bottom: 5px;
     `)};
+
     ${ifProp({ position: 'bottom' }, css`
       background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2236px%22%20height%3D%2212px%22%3E%3Cpath%20fill%3D%22rgba(17, 17, 17, 0.9)%22%20transform%3D%22rotate(180 18 6)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
       height: 6px;
@@ -73,6 +75,7 @@ const TooltipWrapper = styled.span`
       ${bottom};
       margin-top: 5px;
     `)};
+
     ${ifProp({ position: 'left' }, css`
       background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2212px%22%20height%3D%2236px%22%3E%3Cpath%20fill%3D%22rgba(17, 17, 17, 0.9)%22%20transform%3D%22rotate(-90 18 18)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
       width: 6px;
@@ -153,8 +156,11 @@ const TooltipWrapper = styled.span`
     }
   }
 `;
+interface IProps {
+  children: JSX.Element | JSX.Element[] | Element | Element[];
+}
 
-const Tooltip = ({ children, ...rest }) => (
+const Tooltip: SFC<IProps> = ({ children, ...rest }) => (
   <TooltipWrapper
     {...rest}
   >

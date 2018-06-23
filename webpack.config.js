@@ -1,15 +1,20 @@
 const webpack = require('webpack');
 const path = require('path');
 
-const ENV = process.env.NODE_ENV = process.env.ENV = 'production';
-
 module.exports = {
+  mode: process.env.NODE_ENV,
+
   entry: {
-    app: './lib/index.js',
+    app: './lib/index.tsx',
   },
 
   resolve: {
-    extensions: ['.jsx', '.js'],
+    extensions: ['.ts', '.tsx'],
+  },
+
+  optimization: {
+    minimize: false,
+    runtimeChunk: true,
   },
 
   externals: {
@@ -20,26 +25,20 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /^(?!.*\.test\.jsx?$).*\.jsx?$/,
-        loader: 'babel-loader',
+        test: /^(?!.*\.test\.(t|j)sx?$).*\.(t|j)sx?$/,
+        loader: 'awesome-typescript-loader',
+        exclude: /node_modules/,
+      },
+      {
+        enforce: 'pre',
+        test: /\.js$/,
+        loader: 'source-map-loader',
       },
     ],
   },
 
   plugins: [
     new webpack.NoEmitOnErrorsPlugin(),
-    new webpack.optimize.UglifyJsPlugin({
-      compress: { warnings: false },
-      comments: false,
-      sourceMap: false,
-      minimize: true,
-    }),
-    new webpack.DefinePlugin({
-      'process.env': {
-        ENV: JSON.stringify(ENV),
-        NODE_ENV: JSON.stringify(ENV),
-      },
-    }),
   ],
 
   output: {
